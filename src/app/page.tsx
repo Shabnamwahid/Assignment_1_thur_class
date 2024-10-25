@@ -12,13 +12,13 @@ const HomePage = () => {
     <div className='min-h-screen w-full'>
      
      <br />
-     <br />
+     
 
       <div className='h-[70vh] w-full'> 
         <h1 className="text-black text-5xl font-bold mb-4 p-4 bg-[rgb(151,100,151)]">
           Men Wrist Watches
         </h1>
-        <br />
+        {/* <br /> */}
         <p className="text mb-8">
           Discover our collection of men&apos;s wrist watches, where precision meets style.
           Elevate your look with timeless designs crafted for every occasion.
