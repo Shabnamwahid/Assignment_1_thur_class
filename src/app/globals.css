@@ -25,3 +25,55 @@ body {
     text-wrap: balance;
   }
 }
+
+.purple{
+  background-color: rgb(151, 100, 151);
+ width: 40px;
+  font-size: 20px;
+  align-items:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2px;
+}
+h1{
+ 
+  font-size:20px;
+  background-color: rgb(147, 98, 147);
+  text-align: center;
+margin-bottom:10px;
+  margin-top: 10px;
+ 
+  text-decoration:double;
+}
+/* Styling for the heading */
+.black {
+  color: black; /* Adjust color as needed */
+  text-align: center; /* Center the heading */
+}
+
+/* Flexbox for images directly attached to the Hero */
+.image-container {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center the images */
+  margin: 0 auto; /* Center container */
+  margin-top: -50px; /* Adjust this to pull images up above the Hero section */
+  z-index: 1; /* Ensure images are on top of the hero background */
+}
+
+/* Optional: To add space between the images */
+.image-container img {
+  margin: 0 70px; /* Space between images */
+}
+
+/* Hero Section with gradient background */
+.hero-section {
+  position: relative; /* Allow positioning of child elements */
+  z-index: 0; /* Keep hero behind images */
+}
+div{
+  text-emphasis-color:black ;
+text-align:center;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: wavy;
+
+}

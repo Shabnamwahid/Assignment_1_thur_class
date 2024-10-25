@@ -1,0 +1,21 @@
+.purple{
+    font-size: 60px;
+    background-color: rgb(198, 211, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+.centered {
+    text-align: center;
+}
+/* about.module.css */
+.purple {
+    color: purple; /* Change this to your preferred color */
+  }
+  
+  
+  /* Additional styles for your text-container */
+  .text-container {
+    margin: 30px; /* Add spacing around the text */
+
+  }
+  
