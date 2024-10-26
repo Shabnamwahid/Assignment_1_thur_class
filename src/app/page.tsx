@@ -21,7 +21,7 @@ const HomePage = () => {
         {/* <br /> */}
         <p className="text mb-8">
           Discover our collection of men&apos;s wrist watches, where precision meets style.
-          Elevate your look with timeless designs crafted for every occasion.
+          Elevate your look with timeless designs crafted for every occasion.Feel the difference.
         </p>
         <div className="flex space-x-4 mb-8 mt-8">
           <Image src={codeImage} alt="Code Image 1" width={400} height={500} />
